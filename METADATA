@@ -1,0 +1,28 @@
+name: "ed25519-dalek"
+description: "Fast and efficient ed25519 EdDSA key generations, signing, and verification in pure Rust."
+third_party {
+  version: "2.2.0"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/ed25519-dalek"
+  identifier {
+    type: "crates.io"
+    value: "ed25519-dalek"
+    version: "2.2.0"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/ed25519-dalek/ed25519-dalek-2.2.0.crate"
+    version: "2.2.0"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/dalek-cryptography/curve25519-dalek"
+    version: "8016d6d9b9cdbaa681f24147e0b9377cc8cef934"
+  }
+}
